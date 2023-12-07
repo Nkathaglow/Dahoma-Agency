@@ -30,13 +30,13 @@ function Detail() {
                 </div>
 
 
-                <div className="grid grid-cols-3 mt-4 py-10 gap-4  ">
+                <div className="grid grid-cols-3 mt-4 py-10 gap-10  ">
                     {cardsData.map((card, index) => (
-                        <div key={index} className="flex-none rounded-bl-[20px] rounded-br-[20px] bg-white ">
+                        <div key={index} className=" bg-white rounded-[20px] ">
 
                             <img
                                 src={card.imageSrc}
-                                className=" h-[230px] rounded-tl-[20px]  rounded-tr-[20px]"
+                                className=" h-[230px] w-full"
                             />
                             <p className="  text-2xl font-medium text-left  text-[#0d1317]">
                                 {card.title}
