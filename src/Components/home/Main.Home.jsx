@@ -6,6 +6,7 @@ import Start from './components/Start'
 import Strategies from './components/Strategies'
 import Footer from"./components/Footer"
 import Navbar from './components/Navbar'
+import News from './components/News'
 function MainHome() {
     return (
         <div >
@@ -15,6 +16,7 @@ function MainHome() {
             <Blog />
             <Start />
             <Strategies />
+            <News />
             {/* <Footer /> */}
         </div>
     )
