@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from 'react-router-dom'
 
 function Numbers() {
   return (
@@ -17,9 +18,11 @@ function Numbers() {
                   our primary focus remains on harnessing the innate potential
                   and capabilities of human intellect
                 </div>
-                <div className="text-white text-base font-semibold leading-4 capitalize whitespace-nowrap bg-amber-500 justify-center items-stretch mt-3.5 pl-9 pr-7 py-5 rounded-3xl max-md:px-5">
+                <Link to="/contactus">
+                <button className="text-white text-base font-semibold leading-4 capitalize whitespace-nowrap bg-amber-500 justify-center items-stretch mt-3.5 pl-9 pr-7 py-5 rounded-3xl max-md:px-5">
                   Work With Us
-                </div>
+                </button>
+                </Link>
               </div>
             </div>
             <div className="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
