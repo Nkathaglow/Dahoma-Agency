@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../home/components/Navbar'
-import  Entry from './Component/Entry'
+import  ContactContent from './Component/ContactContent'
 
 function Contact() {
   return (
     <div>
         <Navbar />
-        <Entry />
+        <ContactContent />
     </div>
   )
 }
