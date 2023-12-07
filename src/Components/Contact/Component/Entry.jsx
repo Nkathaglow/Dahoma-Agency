@@ -1,6 +1,25 @@
 import React from 'react'
+import { useRef } from 'react';
+import emailJs from '@emailjs/browser';
+import { useState } from 'react';
+
 
 function entry() {
+{/*  Sending and receiving of the emails */}
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailJs.sendForm('service_te73hm9', 'template_qa513lf', form.current, 'aZi_z7PrKYnG6Poqy')
+      .then((result) => {
+        console.log(result.text);
+      }, (err) => {
+        console.log(err.text);
+      });
+  };
+
+
   return (
     <>
 
@@ -32,7 +51,7 @@ function entry() {
         </div>
        </div>
          <p className="absolute left-[321px] top-[328px] text-lg font-medium text-left text-[#5b5b5b]">
-           Fill up the Form and ou team will get back to within 24 hrs
+           Fill up the Form and our team will get back to within 24 hrs
          </p>
          <p className="w-[561px] absolute left-80 top-44 text-5xl font-semibold text-left text-[#1d3444]">
             Have a question ? Let’s get in touch with us.
@@ -50,38 +69,55 @@ function entry() {
             />
           </div>
           <div className="w-[605px] h-[456px]">
+            <form ref={form} onSubmit={sendEmail}>
              <div className="w-[119px] h-[54px]">
                <div className="w-[119px] h-[54px] absolute left-[319.5px] top-[823.5px] rounded-[31px] bg-[#f58a07]" />
-                  <p className="absolute left-[352px] top-[842px] text-base font-semibold text-left capitalize text-white">
-                     Submit
-                  </p>
+                  <input 
+                     className="absolute left-[352px] top-[842px] text-base font-semibold text-left capitalize text-white"
+                     type="submit" value="Submit"
+                  />
                </div>
                <div className="w-[605px] h-40">
                  <div className="w-[605px] h-40 absolute left-[319.5px] top-[631.5px] rounded-[27px] bg-[#d2daed]/[0.17]" />
-                    <p className="absolute left-[352px] top-[664px] text-base font-medium text-left text-[#9c9c9c]">
-                       Type message
-                    </p>
+                    <textarea 
+                         className="absolute left-[352px] top-[664px] text-base font-medium text-left text-[#9c9c9c]"
+                         name="message"
+                         placeholder='Type message'
+                    />
                  </div>
                  <div className="w-[605px] h-[54px]">
                    <div className="w-[605px] h-[54px] absolute left-[319.5px] top-[561.5px] rounded-[27px] bg-[#d2daed]/[0.17]" />
-                      <p className="absolute left-[352px] top-[579px] text-base font-medium text-left text-[#9c9c9c]">
-                         Email address
-                      </p>
+                      <input 
+                          className="absolute left-[352px] top-[579px] text-base font-medium text-left text-[#9c9c9c]"
+                          type='email'
+                          name="email"
+                          placeholder='Email address'
+                      />
                    </div>
                    <div className="w-[605px] h-[54px]">
                      <div className="w-[605px] h-[54px] absolute left-[319.5px] top-[491.5px] rounded-[27px] bg-[#d2daed]/[0.17]" />
-                       <p className="absolute left-[352px] top-[509px] text-base font-medium text-left text-[#9c9c9c]">
-                          Last Name
-                       </p>
+                       <input 
+                           className="absolute left-[352px] top-[509px] text-base font-medium text-left text-[#9c9c9c]"
+                           type="Last name"
+                           name="Last"
+                           placeholder='Last Name'
+                          
+                       />
                      </div>
                      <div className="w-[605px] h-[54px]">
                        <div className="w-[605px] h-[54px] absolute left-[319.5px] top-[421.5px] rounded-[27px] bg-[#d2daed]/[0.17]" />
-                         <p className="absolute left-[352px] top-[439px] text-base font-medium text-left text-[#9c9c9c]">
-                            First Name
-                         </p>
+                         <input 
+                            className="absolute left-[352px] top-[439px] text-base font-medium text-left text-[#9c9c9c]"
+                            type='First Name'
+                            name='First'
+                            placeholder='First Name'
+                          />
+                            
+                         
                        </div>
-                     </div>
-                </div>;
+             </form>
+           </div>
+        </div>;
 
                {/* The Footer */}
 
