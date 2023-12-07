@@ -3,17 +3,17 @@ import gender from '../../../assets/gender.png'
 const cardsData = [
   {
     title: 'Business strategy',
-    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.',
+    detail: '  Let us breathe life into your brand! From logo design to brand identity, we ensure that your brandspeaks loud and stands out in the market.',
     imageSrc: gender,
   },
   {
-    title: 'Business strategy',
-    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.',
+    title: '  Web, Mobile and UX/UI Design',
+    detail: 'Your digital presence matters. Our team excels in creating products and user interfaces that enhance user experiences.',
     imageSrc: gender,
   },
   {
-    title: 'Business strategy',
-    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.',
+    title: '  Marketing Strategy',
+    detail: 'Let us elevate your outreach from strategic planning to comprehensive campaign execution, we ensure your marketing efforts fits the market.',
     imageSrc: gender,
   },
 ];
@@ -26,8 +26,9 @@ function Detail() {
           We help more than 1500 companies from all sectors
         </p>
         <p className="  text-lg font-medium text-left text-[#5b5b5b]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-          hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+        We cater to over 1500 startups across various industries, providing support and solutions tailored
+  to their needs. We ensure that every project we undertake receives our utmost dedication and
+  expertise.
         </p>
       </div>
 
