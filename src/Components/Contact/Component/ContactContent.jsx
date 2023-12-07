@@ -1,6 +1,24 @@
 import * as React from "react";
+import { useRef } from 'react';
+import emailJs from '@emailjs/browser';
+
 
 function ContactContent() {
+
+  {/*  Sending and receiving of the emails */}
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailJs.sendForm('service_te73hm9', 'template_qa513lf', form.current, 'aZi_z7PrKYnG6Poqy')
+      .then((result) => {
+        console.log(result.text);
+      }, (err) => {
+        console.log(err.text);
+      });
+  };
+
   return (
     <div className="bg-white flex flex-col items-center pt-4">
       <div className="flex w-[1280px] max-w-full flex-col px-5">
@@ -41,22 +59,36 @@ function ContactContent() {
         <div className="text-zinc-600 text-lg font-medium leading-8 self-stretch whitespace-nowrap mt-8 pl-5 max-md:max-w-full">
           Fill up the Form and ou team will get back to within 24 hrs
         </div>
+        
+        {/* The Form */}
+        <form ref={form} onSubmit={sendEmail}>
         <div className="self-stretch mt-16 pr-16 max-md:max-w-full max-md:mt-10">
+        
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+          
             <div className="flex flex-col items-stretch w-[49%] max-md:w-full max-md:ml-0">
+              
               <div className="flex grow flex-col items-stretch -ml-2.5 mr-7 max-md:max-w-full max-md:mt-10">
-                <div className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center pl-8 pr-16 py-5 rounded-3xl items-start max-md:max-w-full max-md:px-5">
-                  First Name
-                </div>
-                <div className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center mt-4 pl-8 pr-16 py-5 rounded-3xl items-start max-md:max-w-full max-md:px-5">
-                  Last Name
-                </div>
-                <div className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center mt-4 pl-8 pr-16 py-5 rounded-3xl items-start max-md:max-w-full max-md:px-5">
-                  Email address
-                </div>
-                <div className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center mt-4 pl-8 pr-16 pt-11 pb-20 rounded-3xl items-start max-md:max-w-full max-md:px-5">
-                  Type message
-                </div>
+                <textarea 
+                  className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center pl-8 pr-16 py-5 rounded-3xl items-start max-md:max-w-full max-md:px-5"
+                  name="First Name"
+                  placeholder="First Name"
+                />
+                <textarea 
+                  className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center mt-4 pl-8 pr-16 py-5 rounded-3xl items-start max-md:max-w-full max-md:px-5"
+                  name="Last Name"
+                  placeholder="Last Name"
+                />
+                <textarea 
+                 className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center mt-4 pl-8 pr-16 py-5 rounded-3xl items-start max-md:max-w-full max-md:px-5"
+                  name="email"
+                  placeholder="Email address"
+                />
+                <textarea 
+                className="text-neutral-400 text-base font-medium whitespace-nowrap bg-slate-300 bg-opacity-20 justify-center mt-4 pl-8 pr-16 pt-11 pb-20 rounded-3xl items-start max-md:max-w-full max-md:px-5"
+                name="message"
+                placeholder="Type message"
+                />
               </div>
             </div>
             <div className="flex flex-col items-stretch w-[51%] ml-5 max-md:w-full max-md:ml-0">
@@ -68,10 +100,15 @@ function ContactContent() {
             </div>
           </div>
         </div>
-        <div className="text-white text-base font-semibold leading-4 capitalize whitespace-nowrap bg-amber-500 justify-center items-stretch mt-8 px-8 py-5 rounded-[31px] self-start max-md:px-5">
-          Submit
-        </div>
+        <input 
+           className="text-white text-base font-semibold leading-4 capitalize whitespace-nowrap bg-amber-500 justify-center items-stretch mt-8 px-8 py-5 rounded-[31px] self-start max-md:px-5"
+           type="submit" value="Submit"
+        />
+        </form>
       </div>
+     
+     
+      
       <div className="bg-sky-950 self-stretch flex w-full justify-between gap-5 mt-32 pr-28 pt-10 items-end max-md:max-w-full max-md:flex-wrap max-md:mt-10">
         <img
           loading="lazy"
