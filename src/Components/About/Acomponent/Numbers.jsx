@@ -24,9 +24,9 @@ function Numbers() {
             </div>
             <div className="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
               <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                className="aspect-[0.96] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f94eb07e0133c2e19962dd3d4cbf31f823b961766ae0fa77bd02bbd775646ee3?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                  className="aspect-[0.96] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
               />
             </div>
           </div>
@@ -88,26 +88,26 @@ function Numbers() {
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0">
               <div className="flex flex-col items-stretch my-auto max-md:max-w-full max-md:mt-10">
-                <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                  We aspires to create a local identity that resonates in every
-                  corner of the world
+                 <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
+                     We aspires to create a local identity that resonates in every
+                    corner of the world
+                  </div>
+                  <div className="text-zinc-600 text-lg font-medium leading-8 mt-12 max-md:max-w-full max-md:mt-10">
+                    Our mission is to craft designs and software solutions that
+                    transcend borders, embodying the essence of diverse cultures while
+                    leaving a lasting impact that's universally recognized.
+                  </div>
                 </div>
-                <div className="text-zinc-600 text-lg font-medium leading-8 mt-12 max-md:max-w-full max-md:mt-10">
-                  Our mission is to craft designs and software solutions that
-                  transcend borders, embodying the essence of diverse cultures
-                  while leaving a lasting impact that's universally recognized.
-                </div>
+              </div>{" "}
+              <div className="flex flex-col items-stretch w-[54%] ml-5 max-md:w-full max-md:ml-0">
+                  <img
+                     loading="lazy"
+                     srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                     className="aspect-[0.95] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  />
               </div>
-            </div>{" "}
-            <div className="flex flex-col items-stretch w-[54%] ml-5 max-md:w-full max-md:ml-0">
-              <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ab23553d83d95d2711e71d3b55edc89e70acb77b71196a57f968f474e83e5c9?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                className="aspect-[0.95] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-              />
-            </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter w-[577px] max-w-full mt-24 self-start max-md:text-4xl max-md:leading-[52px] max-md:mt-10">
           Collaboration defines our work ethos
         </div>{" "}
@@ -122,53 +122,53 @@ function Numbers() {
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
               <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                className="aspect-[0.56] object-contain object-center w-full overflow-hidden shrink-0 grow flex-1 max-md:mt-10"
+                 loading="lazy"
+                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/59ed0bb4b041135fb9d3888fb107837a37bfe58a0415143072ee0c15dff01dd1?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                 className="aspect-[0.56] object-contain object-center w-full overflow-hidden shrink-0 grow flex-1 max-md:mt-10"
               />
-            </div>{" "}
+            </div>
             <div className="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
               <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                className="aspect-[0.56] object-contain object-center w-full overflow-hidden shrink-0 grow flex-1 max-md:mt-10"
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b57d4a5f38d8ed8b2c4d439da4f3acec915564ff6686c4e81c4765edf3344853?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                  className="aspect-[0.56] object-contain object-center w-full overflow-hidden shrink-0 grow flex-1 max-md:mt-10"
               />
-            </div>{" "}
+            </div>
             <div className="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
               <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                className="aspect-[0.55] object-contain object-center w-full overflow-hidden shrink-0 grow flex-1 max-md:mt-10"
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0534b1129a414cf3c47fb64e14787f6ac6b677bfa9b29270ea85f9bbf9f72f4b?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                  className="aspect-[0.55] object-contain object-center w-full overflow-hidden shrink-0 grow flex-1 max-md:mt-10"
               />
-            </div>{" "}
+            </div>
             <div className="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
               <div className="flex-col overflow-hidden relative flex aspect-[0.5566218809980806] grow items-stretch pt-12 max-md:mt-10">
                 <img
-                  loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                  className="absolute h-full w-full object-cover object-center inset-0"
-                />{" "}
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/efe4b5becd2b62caa6296bd7b2b13fc978785a690e9e2dfb60bb3ee0ec6550fe?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                    className="absolute h-full w-full object-cover object-center inset-0"
+                />
                 <div className="flex-col relative fill-neutral-800 mix-blend-multiply overflow-hidden flex aspect-[1.2446351931330473] w-full items-stretch mt-60 pl-9 pr-14 py-11 max-md:mt-10 max-md:px-5">
                   <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6639ec32d9421097415798a3d32a79b9bc5b3e02493e56dc7066739583d0e04?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                    className="absolute h-full w-full object-cover object-center inset-0"
-                  />{" "}
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6639ec32d9421097415798a3d32a79b9bc5b3e02493e56dc7066739583d0e04?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                      className="absolute h-full w-full object-cover object-center inset-0"
+                  />
                   <div className="relative text-white text-sm font-semibold leading-4 whitespace-nowrap">
-                    Support Assist
-                  </div>{" "}
+                     Support Assist
+                  </div>
                   <div className="relative text-white text-2xl font-semibold leading-8 mt-4">
                     Selby Stuart
-                  </div>{" "}
+                  </div>
                   <div className="relative text-white text-sm leading-7 mt-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur sit amet eros.
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Curabitur sit amet eros.
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="self-stretch mt-32 max-md:max-w-full max-md:mt-10 max-md:pr-5">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-[49%] max-md:w-full max-md:ml-0">
@@ -184,7 +184,7 @@ function Numbers() {
                 <div className="flex items-stretch justify-between gap-5 mt-11 max-md:mt-10">
                   <img
                     loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bacbe15f9751d9c2671b118cc49aeac0095d1d75c6d695b6794e21f03e146ba4?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                    srcSet="../src/assets/ceo.png"
                     className="aspect-square object-contain object-center w-20 overflow-hidden shrink-0 max-w-full rounded-[50%]"
                   />
                   <div className="self-center flex grow basis-[0%] flex-col items-stretch my-auto">
@@ -203,10 +203,10 @@ function Numbers() {
                 <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                   <div className="flex flex-col items-stretch w-[36%] max-md:w-full max-md:ml-0">
                     <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/961208f6-38b4-4684-98ca-f38680295c89?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                      className="aspect-square object-contain object-center w-[51px] overflow-hidden shrink-0 max-w-full mt-96 rounded-[50%] max-md:mt-10"
-                    />
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e"
+                        className="aspect-[1.24] object-cover object-center w-full h-full box-border min-h-[50px] min-w-[50px] overflow-hidden mt-30"
+                  />
                   </div>
                   <div className="flex flex-col items-stretch w-[64%] ml-5 max-md:w-full max-md:ml-0">
                     <div className="text-white text-lg font-semibold leading-5 capitalize whitespace-nowrap mt-96 max-md:mt-10">
@@ -223,7 +223,7 @@ function Numbers() {
         <div className="bg-amber-500 flex basis-[0%] flex-col justify-center items-stretch mt-44 max-md:mt-10">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/105c596f077cce2c591f7c5596fff5e35cd0a4b99025f22e024788ad10b9192a?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+            srcSet="../src/assets/team1.png"
             className="aspect-[0.42] object-contain object-center w-full overflow-hidden"
           />
         </div>
@@ -236,21 +236,21 @@ function Numbers() {
               <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b5670f67a9166fa4b19e1f443f70fe7326d02787b5162ddf376013838740d92c?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                  srcSet="../src/assets/log1.png"
                   className="aspect-[1.74] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
                 />
               </div>
               <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/220a556a8be9be14965c8e36eb0bb6a881ec79a64baa1db75774bf99306ee364?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                  srcSet="../src/assets/new1.png"
                   className="aspect-[1.74] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
                 />
               </div>
               <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d713d9685670ed9ecda42e5f5fdc44739e42ae91ac1e5656566e1728c527d059?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                  srcSet="../src/assets/log3.png"
                   className="aspect-[1.74] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
                 />
               </div>
