@@ -4,33 +4,6 @@ function Numbers() {
   return (
     <div className="bg-white flex flex-col items-center pt-4">
       <div className="flex w-full max-w-[1338px] flex-col px-5 max-md:max-w-full">
-        <div className="self-stretch flex w-full items-center justify-between gap-5 pr-14 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/41d4893f9b0a63fe13141dcb9f5f51973426a3d0812060fed4579b08d46799d5?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-            className="aspect-[4.36] object-contain object-center w-[122px] fill-sky-950 overflow-hidden shrink-0 max-w-full my-auto"
-          />
-          <div className="self-stretch flex items-start justify-between gap-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-            <div className="text-zinc-700 text-base font-semibold leading-6 capitalize self-center whitespace-nowrap my-auto">
-              About Us
-            </div>
-            <div className="text-zinc-700 text-base leading-6 lowercase self-center my-auto">
-              cAREERS
-            </div>
-            <div className="text-zinc-700 text-base font-semibold leading-6 capitalize self-center my-auto">
-              Services
-            </div>
-            <div className="text-zinc-700 text-base font-semibold leading-6 capitalize self-center my-auto">
-              Blog
-            </div>
-            <div className="text-zinc-700 text-base font-semibold leading-6 capitalize self-center my-auto">
-              Contact us
-            </div>
-            <div className="text-amber-500 text-base font-semibold leading-4 whitespace-nowrap bg-amber-500 bg-opacity-10 self-stretch grow justify-center items-stretch pl-9 pr-7 py-5 rounded-[31px] max-md:px-5">
-              Clone project
-            </div>
-          </div>
-        </div>
         <div className="self-stretch mt-28 max-md:max-w-full max-md:mt-10">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
