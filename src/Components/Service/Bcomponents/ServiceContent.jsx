@@ -51,6 +51,7 @@ function ServiceContent(props) {
                 <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
                 <div className="text-zinc-600 text-base font-medium leading-7 self-stretch grow whitespace-nowrap">
                   Brand Identity Development
+
                 </div>
               </div>
               <div className="flex items-center gap-2 mt-5 self-start">
@@ -412,6 +413,7 @@ function ServiceContent(props) {
                     </div>
                     <div className="text-white text-lg font-semibold leading-5 capitalize whitespace-nowrap bg-amber-500 justify-center mt-4 pl-8 pr-16 py-5 rounded-[31px] items-start max-md:px-5">
                       Subscribe
+
                     </div>
                   </div>
                 </div>

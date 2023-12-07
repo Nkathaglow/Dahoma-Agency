@@ -5,12 +5,13 @@ import Numbers from './Acomponent/Numbers'
 //import Start from './Acomponent/Start'
 
 
+
 function About() {
   return (
     <div>
         <Navbar />
         <Numbers />
-
+    
     </div>
   )
 }
