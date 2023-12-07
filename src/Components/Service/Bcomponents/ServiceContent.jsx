@@ -1,9 +1,9 @@
 import * as React from "react";
 
-function ServiceContent(props) {
+function ServiceContent() {
   return (
     <div className="bg-white flex flex-col pt-4">
-      <div className="self-center w-full max-w-[1338px] mt-28 max-md:max-w-full max-md:mt-10">
+      <div className="self-center w-full max-w-[1338px] mt-28 pr-9 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
             <div className="flex flex-col my-auto px-5 items-start max-md:max-w-full max-md:mt-10">
@@ -28,7 +28,7 @@ function ServiceContent(props) {
           </div>
         </div>
       </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
+      <div className="self-center w-full max-w-[1328px] mt-32 pr-9 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
             <img
@@ -42,7 +42,7 @@ function ServiceContent(props) {
               <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter whitespace-nowrap max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
                 Branding strategy
               </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-7 max-md:max-w-full">
+              <div className="text-zinc-600 text-lg font-medium leading-8 text-left mt-7 max-md:max-w-full">
                 We believe in Storytelling. From logo design to visual elements,
                 we create a cohesive brand image that leaves a lasting
                 impression and tell{" "}
@@ -51,7 +51,6 @@ function ServiceContent(props) {
                 <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
                 <div className="text-zinc-600 text-base font-medium leading-7 self-stretch grow whitespace-nowrap">
                   Brand Identity Development
-
                 </div>
               </div>
               <div className="flex items-center gap-2 mt-5 self-start">
@@ -70,14 +69,14 @@ function ServiceContent(props) {
           </div>
         </div>
       </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
+      <div className="self-center w-full max-w-[1328px] mt-32 pr-9 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-stretch my-auto px-5 max-md:max-w-full max-md:mt-10">
               <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter whitespace-nowrap max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
                 Digitalization
               </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-7 max-md:max-w-full">
+              <div className="text-zinc-600 text-lg font-medium leading-8 text-left mt-7 max-md:max-w-full">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 leo odio, sagittis quis ornare quis.met, consectetur adipiscing
                 elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum
@@ -95,7 +94,7 @@ function ServiceContent(props) {
           </div>
         </div>
       </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
+      <div className="self-center w-full max-w-[1328px] mt-32 pr-9 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
             <img
@@ -109,7 +108,7 @@ function ServiceContent(props) {
               <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter whitespace-nowrap max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
                 Risk assessment
               </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-11 max-md:max-w-full max-md:mt-10">
+              <div className="text-zinc-600 text-lg font-medium leading-8 text-left mt-11 max-md:max-w-full max-md:mt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 leo odio, sagittis quis ornare quis.met, consectetur adipiscing
                 elit. Aliquam leo odio, sagittis quis ornare quis.
@@ -136,7 +135,7 @@ function ServiceContent(props) {
           </div>
         </div>
       </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
+      <div className="self-center w-full max-w-[1328px] mt-32 pr-9 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-stretch my-auto px-5 max-md:max-w-full max-md:mt-10">
@@ -161,7 +160,7 @@ function ServiceContent(props) {
           </div>
         </div>
       </div>
-      <div className="self-center w-full max-w-[1324px] mt-32 max-md:max-w-full max-md:mt-10">
+      <div className="self-center w-full max-w-[1324px] mt-32 pr-9 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
             <img
@@ -202,7 +201,7 @@ function ServiceContent(props) {
           </div>
         </div>
       </div>
-      <div className="self-center w-[1280px] max-w-full mt-32 max-md:mt-10">
+      <div className="self-center w-[1280px] max-w-full mt-32 pr-9 max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
             <div className="flex flex-col my-auto px-5 items-start max-md:max-w-full max-md:mt-10">
@@ -232,19 +231,14 @@ function ServiceContent(props) {
             </div>
           </div>
           <div className="flex flex-col items-stretch w-[53%] ml-5 max-md:w-full max-md:ml-0">
-            <div className="overflow-hidden grow px-10 py-11 max-md:max-w-full max-md:mt-10 max-md:px-5">
+            <div className="overflow-hidden grow bg-[url(https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2Fe16d6e3aeca8455d89f40adaad5ed80e)] bg-no-repeat bg-center bg-cover -mb-1 px-10 py-11 max-md:max-w-full max-md:mt-10 max-md:px-5">
               <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-                <div className="flex flex-col items-stretch w-[36%] max-md:w-full max-md:ml-0">
+                <div className="flex flex-col items-stretch w-full max-md:w-full max-md:ml-0">
                   <img
                     loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e35fc3cb-9747-4231-a250-506994208fe6?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
-                    className="aspect-square object-contain object-center w-[51px] overflow-hidden shrink-0 max-w-full mt-96 rounded-[50%] max-md:mt-10"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F5e9216a8905e4b3dbda114fe063d2097%2F2c87ce0e1c1b409eb636aa5c10268aef"
+                    className="aspect-[0.99] object-contain object-center w-[51px] overflow-hidden shrink-0 max-w-full mt-96 rounded-[50%] max-md:mt-10"
                   />
-                </div>
-                <div className="flex flex-col items-stretch w-[64%] ml-5 max-md:w-full max-md:ml-0">
-                  <div className="text-white text-lg font-semibold leading-5 capitalize whitespace-nowrap mt-96 max-md:mt-10">
-                    play Video
-                  </div>
                 </div>
               </div>
             </div>
@@ -356,7 +350,7 @@ function ServiceContent(props) {
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/08f27e520ae56737407d861d947951bad43659161bb938d910d7254f10d74400?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
           className="aspect-[0.37] object-contain object-center w-[53px] fill-amber-500 overflow-hidden shrink-0 max-w-full mt-72 max-md:mt-10"
         />
-        <div className="flex grow basis-[0%] flex-col items-stretch self-start max-md:max-w-full">
+        <div className="flex grow basis-[0%] flex-col items-stretch -ml-1 self-start max-md:max-w-full">
           <div className="flex w-full items-start justify-between gap-5 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
             <div className="self-center flex basis-[0%] flex-col items-stretch my-auto">
               <img
@@ -413,7 +407,6 @@ function ServiceContent(props) {
                     </div>
                     <div className="text-white text-lg font-semibold leading-5 capitalize whitespace-nowrap bg-amber-500 justify-center mt-4 pl-8 pr-16 py-5 rounded-[31px] items-start max-md:px-5">
                       Subscribe
-
                     </div>
                   </div>
                 </div>
@@ -439,6 +432,7 @@ function ServiceContent(props) {
     </div>
   );
 }
+
 
 export default ServiceContent
 
