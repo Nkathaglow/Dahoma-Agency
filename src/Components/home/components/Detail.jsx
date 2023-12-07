@@ -38,7 +38,7 @@ function Detail() {
 
             <img
               src={card.imageSrc}
-              className=" h-[242px] rounded-[20px] object-cover"
+              className=" h-[230px] rounded-tl-[20px] rounded-tr-[20px] object-cover"
             />
             <p className=" h-[30px] py-4  text-2xl font-medium text-left text-[#0d1317] bg-white ">
               {card.title}
