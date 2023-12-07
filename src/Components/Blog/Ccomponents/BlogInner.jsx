@@ -1,154 +1,169 @@
-import React from "react";
+import * as React from "react";
 
-export const BlogInner = () => {
-    return (
-        <div className="bg-white flex flex-row justify-center w-full">
-            <div className="bg-white w-[1920px] h-[2826px] relative">
-                <div className="absolute w-[1294px] h-[2055px] top-[180px] left-[320px]">
-                    <p className="absolute w-[752px] top-[1887px] left-[264px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
-                        Writing UX copies can be a little frustrating and confusing, and sometimes we are unsure about how to get
-                        the right word. To crack the code for the UX copies, we at Zeta Design wanted to build a Figma plugin for
-                        the larger design community. The plugin is called the Ghost UXWriter and has a set of UX copies cataloged
-                        and categorized with a voice and tone variation ranging from plain, casual to playful. The intention to
-                        build this Figma plugin originated from our Medium blog post, ‘Designing voice.
-                    </p>
-                    <p className="top-[1751px] absolute w-[752px] left-[264px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
-                        Writing UX copies can be a little frustrating and confusing, and sometimes we are unsure about how to get
-                        the right word. To crack the code for the UX copies, we at Zeta Design wanted to build a Figma plugin for
-                        the larger design community. The plugin is called the Ghost UXWriter and has a set of UX copies cataloged.
-                    </p>
-                    <p className="absolute w-[752px] top-[1559px] left-[264px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px]">
-                        Transform Your Idea Into Reality with Ether a Leading Digital Agency
-                    </p>
-                    <p className="top-[1343px] absolute w-[752px] left-[264px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
-                        Writing UX copies can be a little frustrating and confusing, and sometimes we are unsure about how to get
-                        the right word. To crack the code for the UX copies, we at Zeta Design wanted to build a Figma plugin for
-                        the larger design community. The plugin is called the Ghost UXWriter and has a set of UX copies cataloged
-                        and categorized with a voice and tone variation ranging from plain, casual to playful. The intention to
-                        build this Figma plugin originated from our Medium blog post, ‘Designing voice.
-                    </p>
-                    <p className="top-[1207px] absolute w-[752px] left-[264px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
-                        Writing UX copies can be a little frustrating and confusing, and sometimes we are unsure about how to get
-                        the right word. To crack the code for the UX copies, we at Zeta Design wanted to build a Figma plugin for
-                        the larger design community. The plugin is called the Ghost UXWriter and has a set of UX copies cataloged.
-                    </p>
-                    <p className="top-[1015px] absolute w-[752px] left-[264px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
-                        Writing UX copies can be a little frustrating and confusing, and sometimes we are unsure about how to get
-                        the right word. To crack the code for the UX copies, we at Zeta Design wanted to build a Figma plugin for
-                        the larger design community. The plugin is called the Ghost UXWriter and has a set of UX copies cataloged
-                        and categorized with a voice and tone variation ranging from plain, casual to playful. The intention to
-                        build this Figma plugin originated from our Medium blog post, ‘Designing voice and tone for error messages.
-                    </p>
-                    <p className="absolute w-[752px] top-[767px] left-[264px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#1d3444] text-[64px] tracking-[-1.92px] leading-[72px]">
-                        Breaking the code How did we build our Figma plugin
-                    </p>
-                    <img className="absolute w-[1280px] h-[631px] top-0 left-0" alt="Image" src="../src/assets/binner.png" />
-                    <div className="absolute w-[413px] h-[32px] top-[711px] left-[264px]">
-                        <p className="absolute top-0 left-[187px] opacity-[0.87] [font-family:'Poppins-Regular',Helvetica] font-normal text-[#394149] text-[16px] tracking-[0] leading-[32px] whitespace-nowrap">
-                            Posted on 27th January 2021
-                        </p>
-                        <div className="absolute top-0 left-[40px] opacity-[0.87] [font-family:'Poppins-Regular',Helvetica] font-normal text-[#394149] text-[16px] tracking-[0] leading-[32px] whitespace-nowrap">
-                            Andrew Jonson
-                        </div>
-                        <img className="absolute w-[32px] h-[32px] top-0 left-0" alt="Image" src="../src/assets/homeblog.svg" />
-                    </div>
-                </div>
-                <footer className="absolute w-[1920px] h-[463px] top-[2363px] left-0 bg-transparent">
-                    <div className="relative w-[1920px] h-[463px]">
-                        <div className="absolute w-[1920px] h-[463px] top-0 left-0 bg-[#063155]">
-                            <div className="w-[1282px] top-[359px] left-[320px] absolute h-[24px]">
-                                <div className="w-[302px] top-0 left-[982px] absolute h-[24px]">
-                                    <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                        Privacy Policy
-                                    </div>
-                                    <div className="absolute top-0 left-[142px] [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                        Terms &amp; Conditions
-                                    </div>
-                                </div>
-                                <p className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                    © All rights reserved – Finsweet
-                                </p>
-                            </div>
-                            <div className="h-[287px] top-[38px] left-[1867px] bg-[#f58a07] rounded-[20px_0px_0px_20px] absolute w-[53px]" />
-                            <img className="h-[144px] top-[319px] left-0 absolute w-[53px]" alt="Shape left" src="Shape Left.svg" />
-                        </div>
-                        <div className="absolute w-[1280px] h-[199px] top-[80px] left-[320px]">
-                            <div className="absolute w-[344px] h-[175px] top-0 left-[938px]">
-                                <button className="absolute w-[158px] h-[54px] top-[121px] left-0 all-[unset] box-border">
-                                    <div className="relative w-[156px] h-[54px] bg-[#f58a07] rounded-[31px]">
-                                        <div className="absolute top-[17px] left-[32px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[19.2px] whitespace-nowrap">
-                                            Subscribe
-                                        </div>
-                                    </div>
-                                </button>
-                                <div className="absolute w-[344px] h-[54px] top-[51px] left-0">
-                                    <input
-                                        className="relative w-[342px] h-[54px] bg-white rounded-[31px] border-[none] [font-family:'Inter-Medium',Helvetica] font-medium text-[#9c9c9c] text-[16px] tracking-[0] leading-[normal] whitespace-nowrap p-0 pl-[32px]"
-                                        placeholder="Type email here"
-                                        type="email"
-                                    />
-                                </div>
-                                <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal]">
-                                    Join Newsletter
-                                </div>
-                            </div>
-                            <div className="absolute w-[148px] h-[117px] top-0 left-[659px]">
-                                <div className="absolute top-[93px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                    +(123) 456-7890
-                                </div>
-                                <div className="absolute top-[53px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                    hi@finsweet.com
-                                </div>
-                                <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal]">
-                                    Connect
-                                </div>
-                            </div>
-                            <div className="absolute w-[102px] h-[195px] top-0 left-[461px]">
-                                <div className="absolute top-[171px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                    Blog
-                                </div>
-                                <div className="absolute top-[131px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                    Services
-                                </div>
-                                <div className="absolute top-[91px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                    Careers
-                                </div>
-                                <div className="absolute top-[51px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
-                                    About Us
-                                </div>
-                                <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal]">
-                                    Company
-                                </div>
-                            </div>
-                            <div className="absolute w-[353px] h-[199px] top-0 left-0">
-                                <div className="absolute w-[136px] h-[20px] top-[179px] left-0">
-                                    <img
-                                        className="left-[115px] absolute w-[21px] h-[20px] top-0"
-                                        alt="Social icon twitter"
-                                        src="../src/assets/twitter.svg"
-                                    />
-                                    <img
-                                        className="left-0 absolute w-[21px] h-[20px] top-0"
-                                        alt="Social icon facebook"
-                                        src="../src/assets/facebook.svg"
-                                    />
-                                    <img className="left-[76px] absolute w-[21px] h-[20px] top-0" alt="Social icon" src="../src/assets/instagram.svg" />
-                                    <div className="left-[38px] absolute w-[21px] h-[20px] top-0">
-                                        <img className="absolute w-[20px] h-[13px] top-[3px] left-px" alt="Subtract" src="../src/assets/youtube.svg" />
-                                    </div>
-                                </div>
-                                <div className="absolute w-[351px] top-[59px] left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[36px] tracking-[-1.08px] leading-[44px]">
-                                    Bespoke software solutions
-                                </div>
-                                <img className="absolute w-[120px] h-[27px] top-0 left-0" alt="Logo" src="../src/assets/Logo.svg" />
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
+function BlogInner(props) {
+  return (
+    <div className="bg-white flex flex-col pr-5 pt-4">
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/09602f7589008ca3552f92f7b811f124386a90477fe48707f9cb5def7a1232fb?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+        className="aspect-[2.03] object-contain object-center w-[978px] overflow-hidden self-center max-w-full mt-28 max-md:mt-10"
+      />
+      <div className="self-center flex items-stretch justify-between gap-2 mt-20 px-5 max-md:justify-center max-md:mt-10">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5ff69a27d951919db8de7dd31b5458e46a857fd639ec05d25ea68dca3ccb220d?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+          className="aspect-square object-contain object-center w-8 overflow-hidden shrink-0 max-w-full rounded-[50%]"
+        />
+        <div className="text-zinc-700 text-base leading-8 my-auto">
+          Andrew Jonson
         </div>
-    );
-};
-
+        <div className="text-zinc-700 text-base leading-8 self-center whitespace-nowrap my-auto">
+          Posted on 27th January 2021
+        </div>
+      </div>
+      <div className="text-slate-800 text-6xl font-semibold leading-[72px] tracking-tighter self-center w-[752px] max-w-full mt-8 max-md:text-4xl max-md:leading-[50px]">
+        Breaking the code How did we build our Figma plugin{" "}
+      </div>
+      <div className="text-zinc-600 text-base font-medium leading-7 text-left -ml-0.5 mt-9 px-52 max-md:max-w-full">
+        Writing UX copies can be a little frustrating and confusing, and
+        sometimes we are unsure about how to get the right word. To crack the
+        code for the UX copies, we at Zeta Design wanted to build a Figma plugin
+        for the larger design community. The plugin is called the Ghost UXWriter
+        and has a set of UX copies cataloged and categorized with a voice and
+        tone variation ranging from plain, casual to playful. The intention to
+        build this Figma plugin originated from our Medium blog post, ‘Designing
+        voice and tone for error messages.
+      </div>
+      <div className="text-zinc-600 text-base font-medium leading-7 mt-9 pl-52 pr-48 max-md:max-w-full">
+        Writing UX copies can be a little frustrating and confusing, and
+        sometimes we are unsure about how to get the right word. To crack the
+        code for the UX copies, we at Zeta Design wanted to build a Figma plugin
+        for the larger design community. The plugin is called the Ghost UXWriter
+        and has a set of UX copies cataloged.
+      </div>
+      <div className="text-zinc-600 text-base font-medium leading-7 mt-9 pl-48 pr-44 max-md:max-w-full">
+        Writing UX copies can be a little frustrating and confusing, and
+        sometimes we are unsure about how to get the right word. To crack the
+        code for the UX copies, we at Zeta Design wanted to build a Figma plugin
+        for the larger design community. The plugin is called the Ghost UXWriter
+        and has a set of UX copies cataloged and categorized with a voice and
+        tone variation ranging from plain, casual to playful. The intention to
+        build this Figma plugin originated from our Medium blog post, ‘Designing
+        voice.
+      </div>
+      <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter self-center w-[752px] max-w-full mt-14 max-md:text-4xl max-md:leading-[52px] max-md:mt-10">
+        Transform Your Idea Into Reality with Ether a Leading Digital Agency
+      </div>
+      <div className="text-zinc-600 text-base font-medium leading-7 -ml-0.5 mt-8 mb-5 pt-1.5 px-52 max-md:max-w-full">
+        Writing UX copies can be a little frustrating and confusing, and
+        sometimes we are unsure about how to get the right word. To crack the
+        code for the UX copies, we at Zeta Design wanted to build a Figma plugin
+        for the larger design community. The plugin is called the Ghost UXWriter
+        and has a set of UX copies cataloged.
+      </div>
+      <div className="text-zinc-600 text-base font-medium leading-7 mt-9 px-52 max-md:max-w-full">
+        Writing UX copies can be a little frustrating and confusing, and
+        sometimes we are unsure about how to get the right word. To crack the
+        code for the UX copies, we at Zeta Design wanted to build a Figma plugin
+        for the larger design community. The plugin is called the Ghost UXWriter
+        and has a set of UX copies cataloged and categorized with a voice and
+        tone variation ranging from plain, casual to playful. The intention to
+        build this Figma plugin originated from our Medium blog post, ‘Designing
+        voice.
+      </div>
+      <div className="bg-sky-950 self-stretch flex w-full justify-between gap-5 mt-32 pt-10 items-end max-md:max-w-full max-md:flex-wrap max-md:mt-10">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/08f27e520ae56737407d861d947951bad43659161bb938d910d7254f10d74400?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+          className="aspect-[0.37] object-contain object-center w-[53px] fill-amber-500 overflow-hidden shrink-0 max-w-full mt-72 max-md:mt-10"
+        />
+        <div className="flex grow basis-[0%] flex-col items-stretch self-start max-md:max-w-full">
+          <div className="flex w-full items-stretch justify-between gap-5 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+            <div className="self-center flex basis-[0%] flex-col items-stretch my-auto">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1cfb7bfc64850bcafebffd24d1f304e1c7f6dbefdb152a60cf6228b08e970710?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                className="aspect-[11.33] object-contain object-center w-[306px] fill-white overflow-hidden self-center"
+              />
+              <div className="text-white text-4xl font-semibold leading-10 tracking-tighter mt-10">
+                Bespoke software solutions
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9931966b2f1e311d5650693e7b7d54e027ed185e30a76e2a664a738d4398528e?apiKey=5e9216a8905e4b3dbda114fe063d2097&"
+                className="aspect-[15.3] object-contain object-center w-[306px] overflow-hidden self-center mt-10 max-md:mt-10"
+              />
+            </div>
+            <div className="self-center my-auto max-md:max-w-full">
+              <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                <div className="flex flex-col items-stretch w-[18%] max-md:w-full max-md:ml-0">
+                  <div className="flex grow flex-col items-stretch max-md:mt-10">
+                    <div className="text-white text-lg font-semibold whitespace-nowrap">
+                      Company
+                    </div>
+                    <div className="text-white text-base font-medium whitespace-nowrap mt-8">
+                      About Us
+                    </div>
+                    <div className="text-white text-base font-medium whitespace-nowrap mt-7">
+                      Careers
+                    </div>
+                    <div className="text-white text-base font-medium whitespace-nowrap mt-7">
+                      Services
+                    </div>
+                    <div className="text-white text-base font-medium whitespace-nowrap mt-7">
+                      Blog
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col items-stretch w-[26%] ml-5 max-md:w-full max-md:ml-0">
+                  <div className="flex flex-col items-stretch max-md:mt-10">
+                    <div className="text-white text-lg font-semibold whitespace-nowrap">
+                      Connect
+                    </div>
+                    <div className="text-white text-base font-medium whitespace-nowrap mt-10">
+                      hi@finsweet.com
+                    </div>
+                    <div className="text-white text-base font-medium whitespace-nowrap mt-5">
+                      +(123) 456-7890
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
+                  <div className="flex flex-col items-stretch max-md:mt-10">
+                    <div className="text-white text-lg font-semibold whitespace-nowrap">
+                      Join Newsletter
+                    </div>
+                    <div className="text-neutral-400 text-base font-medium whitespace-nowrap bg-white justify-center mt-8 pl-8 pr-16 py-5 rounded-[31px] items-start max-md:px-5">
+                      Type email here
+                    </div>
+                    <div className="text-white text-lg font-semibold leading-5 capitalize whitespace-nowrap bg-amber-500 justify-center mt-4 pl-8 pr-16 py-5 rounded-[31px] items-start max-md:px-5">
+                      Subscribe
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-amber-500 flex w-[53px] shrink-0 h-[287px] flex-col rounded-3xl" />
+          </div>
+          <div className="flex w-full items-stretch justify-between gap-5 mt-10 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
+            <div className="text-white text-base font-medium grow whitespace-nowrap">
+              © All rights reserved – Finsweet
+            </div>
+            <div className="flex items-stretch justify-between gap-5">
+              <div className="text-white text-base font-medium whitespace-nowrap">
+                Privacy Policy
+              </div>
+              <div className="text-white text-base font-medium whitespace-nowrap self-start">
+                Terms & Conditions
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default BlogInner
+
+
