@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../home/components/Navbar'
 import Numbers from './Acomponent/Numbers'
-import Team from './Acomponent/Team'
-import Start from './Acomponent/Start'
+//import Team from './Acomponent/Team'
+//import Start from './Acomponent/Start'
 
 
 function About() {
@@ -10,8 +10,7 @@ function About() {
     <div>
         <Navbar />
         <Numbers />
-        <Team />
-        <Start />
+
     </div>
   )
 }
