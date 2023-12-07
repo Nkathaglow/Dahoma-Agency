@@ -1,22 +1,6 @@
 import * as React from "react";
 
-
-function entry() {
-{/*  Sending and receiving of the emails */}
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailJs.sendForm('service_te73hm9', 'template_qa513lf', form.current, 'aZi_z7PrKYnG6Poqy')
-      .then((result) => {
-        console.log(result.text);
-      }, (err) => {
-        console.log(err.text);
-      });
-  };
-
-
+function ContactContent() {
   return (
     <div className="bg-white flex flex-col items-center pt-4">
       <div className="flex w-[1280px] max-w-full flex-col px-5">
@@ -126,7 +110,6 @@ function entry() {
                     </div>
                     <div className="text-white text-base font-medium whitespace-nowrap mt-7">
                       Services
-
                     </div>
                     <div className="text-white text-base font-medium whitespace-nowrap mt-7">
                       Blog
@@ -182,5 +165,7 @@ function entry() {
   );
 }
 
+export default ContactContent
 
-export default entry
+
+
