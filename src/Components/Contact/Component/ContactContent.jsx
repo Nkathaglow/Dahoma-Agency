@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailJs from '@emailjs/browser';
 
 
@@ -7,6 +7,9 @@ function ContactContent() {
 
   {/*  Sending and receiving of the emails */}
   const form = useRef();
+  const [showNotification, setShowNotification] = useState(false);
+
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -14,10 +17,18 @@ function ContactContent() {
     emailJs.sendForm('service_te73hm9', 'template_qa513lf', form.current, 'aZi_z7PrKYnG6Poqy')
       .then((result) => {
         console.log(result.text);
-      }, (err) => {
+        setShowNotification(true);
+        setTimeout(() => {
+          setShowNotification(false);
+        }, 3000);{/* The timer */}
+        form.current.reset();
+      })
+      .catch((err) => {
         console.log(err.text);
       });
   };
+
+  console.log("Rendering Contact...");
 
   return (
     <div className="bg-white flex flex-col items-center pt-4">
@@ -57,7 +68,7 @@ function ContactContent() {
           </div>
         </div>
         <div className="text-zinc-600 text-lg font-medium leading-8 self-stretch whitespace-nowrap mt-8 pl-5 max-md:max-w-full">
-          Fill up the Form and ou team will get back to within 24 hrs
+          Fill up the Form and our team will get back to within 24 hrs
         </div>
         
         {/* The Form */}
@@ -105,6 +116,14 @@ function ContactContent() {
            type="submit" value="Submit"
         />
         </form>
+
+        {/* Pop up Notification */}
+
+        {showNotification && (
+          <div className="bg-green-500 text-white p-3 mt-4 rounded-md">
+              Message sent Successfully!
+          </div>
+        )}
       </div>
      
      
