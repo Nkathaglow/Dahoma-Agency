@@ -23,7 +23,7 @@ function Blog() {
   ];
 
   return (
-    <div className='bg-[#EDF7FF] '>
+    <div className='bg-[#EDF7FF]  text-centre'>
       <div className='container mx-auto'>
         <div className='grid gap-2 py-10  grid-cols-2 '>
           <p className='text-left font-semibold text-[#0d1317] text-4xl'>We are building a software solution that solves your business challenges</p>

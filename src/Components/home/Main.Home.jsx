@@ -17,7 +17,7 @@ function MainHome() {
             <Start />
             <Strategies />
             <News />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

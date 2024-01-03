@@ -8,7 +8,7 @@ const cardsData = [
         imageSrc: gender,
     },
     {
-        title: 'Our internal process and longerm vision',
+        title: 'Our internal process and longterm vision',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.',
         imageSrc: gender,
     },
