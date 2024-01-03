@@ -28,8 +28,8 @@ function Blog() {
         <div className='grid gap-2 py-10  grid-cols-2 '>
           <p className='text-left font-semibold text-[#0d1317] text-4xl'>We are building a software solution that solves your business challenges</p>
           <p className='text-left text-[#1d3444] text-lg font-medium'>  At our core, we excel in crafting software solutions that not only align with your distinct
-  requirements but also surpass expectations. Our technology solutions range from blockchain
-  applications, healthcare management systems, and a spectrum of cutting-edge tools.</p>
+            requirements but also surpass expectations. Our technology solutions range from blockchain
+            applications, healthcare management systems, and a spectrum of cutting-edge tools.</p>
         </div>
         <div className="grid grid-cols-3 gap-6">
           {cardsData.map((card, index) => (
