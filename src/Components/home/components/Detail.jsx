@@ -1,5 +1,6 @@
 import React from 'react';
 import gender from '../../../assets/gender.png'
+
 const cardsData = [
   {
     title: 'Business strategy',
@@ -26,17 +27,15 @@ function Detail() {
           We help more than 1500 companies from all sectors
         </p>
         <p className="  text-lg font-medium text-left text-[#5b5b5b]">
-        We cater to over 1500 startups across various industries, providing support and solutions tailored
-  to their needs. We ensure that every project we undertake receives our utmost dedication and
-  expertise.
+          We cater to over 1500 startups across various industries, providing support and solutions tailored
+          to their needs. We ensure that every project we undertake receives our utmost dedication and
+          expertise.
         </p>
       </div>
-
 
       <div className="grid grid-cols-3 mt-4  gap-4 ">
         {cardsData.map((card, index) => (
           <div key={index} className="flex-none">
-
             <img
               src={card.imageSrc}
               className=" h-[230px] rounded-tl-[20px] rounded-tr-[20px] object-cover"

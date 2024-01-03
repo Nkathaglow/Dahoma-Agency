@@ -19,7 +19,7 @@ const cardsData = [
     },
 ];
 
-function Detail() {
+function News() {
     return (
         <div className='bg-[#dceaf5]'>
             <div className="container mx-auto py-10 my-10">
@@ -28,8 +28,6 @@ function Detail() {
                         Latest Blog &amp; News
                     </p>
                 </div>
-
-
                 <div className="grid grid-cols-3 mt-4 py-10 gap-10  ">
                     {cardsData.map((card, index) => (
                         <div key={index} className=" bg-white rounded-[20px] ">
@@ -73,4 +71,4 @@ function Detail() {
     );
 }
 
-export default Detail;
+export default News;
