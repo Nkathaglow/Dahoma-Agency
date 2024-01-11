@@ -44,7 +44,7 @@ function News() {
                             </p>
                             <div className="  mt-4 item-start text-left ">
                                 <p className=" font-medium text-[#f58a07]">
-                                    Learn More
+                                    Learn more
                                 </p>
                                 <svg
                                     width={22}

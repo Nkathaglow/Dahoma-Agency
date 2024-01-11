@@ -39,7 +39,7 @@ function Footer() {
     </div>
     <div className="w-[142px] h-[117px]">
       <p className="absolute left-[779px] top-[6323px] text-base font-medium text-left text-white">
-        +(123) 456-7890
+        +(254) 456-7890 000345
       </p>
       <p className="absolute left-[779px] top-[6283px] text-base font-medium text-left text-white">
         hi@dahomapeak.com
@@ -71,7 +71,7 @@ function Footer() {
       </p>
 
     </div>
-    {/* <div className='h-[144px] w-[53px] bg-[F58A07] absolute z-index bottom-0 left-0'/> */}
+    <div className='h-[144px] w-[53px] bg-[F58A07] absolute z-index bottom-0 left-0'/>
 
     <div className="w-[53px] h-[287px] rounded-tl-[20px] rounded-bl-[20px] bg-[#f58a07]" />
   </div>

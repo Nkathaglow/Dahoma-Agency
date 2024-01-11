@@ -8,7 +8,7 @@ const Intro = () => {
         <div className="container h-[703px] justify-center mx-auto  " >
           <div className='pt-[200px] w-1/2 '>
             <p className=" text-[64px] font-semibold text-[#1d3444] font-semibold text-left">
-              Prosper with our bespoke solutions
+              Prosper with our Best Dahoma Solutions
             </p>
             <p className=" text-lg  font-medium text-left text-[#5b5b5b]">
               We empower startup founders with quality in-house talent and cost-effective subscription services,

@@ -13,15 +13,14 @@ function Strategies() {
       <div className='grid grid-cols-2 mx-auto mt-10 gap-24'>
         <div className=' '>
           <p className='text-5xl font-semibold mb-4 text-left text-[#0d1317]'>  Helping startups with research and strategy for their business</p>
-          <p className='text-lg font-medium text-left mt-10 text-[#5b5b5b]'><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-            hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.{" "}
+          <p className='text-lg font-medium text-left mt-10 text-[#5b5b5b]'>Helping startups with research and strategy for their business<span>{" "}
           </span>
             <br /><br />
             <span> Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.{" "}</span>
           </p>
           <div className=" h-[17px] mt-4 item-start text-left ">
             <p className=" font-medium text-[#f58a07]">
-              Learn More
+              Learn more
             </p>
             <svg
               width={22}
